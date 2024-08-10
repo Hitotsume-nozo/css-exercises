@@ -1,1 +1,10 @@
 /*CSS*/
+.b1{
+    font-weight: 700;
+}
+.col{
+    background-color: green;
+}
+#big{
+    font-size: 21px;
+}
