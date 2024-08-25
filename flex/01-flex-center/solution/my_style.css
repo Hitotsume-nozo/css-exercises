@@ -1,1 +1,20 @@
 /* style.css */
+div.container{
+    display: flex;
+    height: 800px;
+    width: auto;
+    background-color: lightskyblue;
+    border: 1px solid blue;
+    align-items: center;
+    justify-content: center;
+}
+
+div.item{
+    height: 10%;
+    width: 5%;
+    background-color: lightcoral;
+    border: 2px solid maroon;
+    padding-left: 1.5%;
+    padding-top: 0.6%;
+}
+
