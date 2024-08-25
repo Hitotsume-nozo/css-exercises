@@ -1,1 +1,37 @@
 /* style.css */
+div.container{
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: peachpuff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.cen{
+    color: orange;
+    width: 10em;
+    height: 2em;
+    text-align: center;
+    padding-top: 1%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 20px;
+}
+.lis1,
+.lis2{
+    display:flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+li{
+    display: inline-flex;
+    align-self: auto;
+    background-color: white;
+    padding: 8px;
+    margin-right: 8px;
+    color: blue;
+    font-family: monospace;
+}
